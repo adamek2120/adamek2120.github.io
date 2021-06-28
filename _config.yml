@@ -6,19 +6,23 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Adamek Analysis
 
 # Your name to show in the footer
-author: Some Person
+author: John F. Adamek
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Sport Models:
+    - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
+    - DRating: "https://www.dratings.com/"
+    - PredictionTracker: "https://www.thepredictiontracker.com/"
+  Data Resources:
+    - Fangraphs: "https://www.fangraphs.com/"
+    - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
+  Daily Predictions: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -39,15 +43,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  #email: "someone@example.com"
+  #facebook: deanattali
+  github: adamek2120
+  twitter: AdamekJohnf
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: johnadamek
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -60,8 +64,8 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+  ORCID: your ORCID ID
+  google-scholar: spBAJigAAAAJ
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
@@ -72,13 +76,12 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
   linkedin: true
-  vk: false
+  google-scholar:: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+##url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -100,15 +103,15 @@ post_search: true
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-text-col: "#0000FF"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
+page-col: "#87CEEB"
+text-col: "#0000FF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#EAEAEA"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-link-col: "#0000FF"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
