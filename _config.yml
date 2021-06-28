@@ -115,7 +115,7 @@ footer-link-col: "#FFA500"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/At_the_Open.jpg"
+navbar-img: "/assets/img/At_the_Open.jpg"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
