@@ -1,78 +1,28 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+title: Performance of Different Rating Systems on Predicting MLB Half-Game Results
+subtitle: John F. Adamek
 tags: [test]
 comments: true
 ---
+# 1   Introduction
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Major League Baseball (MLB) provides a large amount of statistics relating to team and individual performance. Statisticians have gravitated towards analyzing these statistics in what has become to be known as 'Sabermetrics'. As a result, sabermetrician's have developed numerous rating systems over the years with the intent of explaining and predicting future performance. Bill James 'GameScore' is one system used to gauge a pitchers game performance. David Smyth's 'BaseRuns' (modified by Tom M. Tango) is another system thats been used to estimate the number of runs a team should have. Typically, these systems are analyzed on full-game data. Due to the shift in how baseball is played today with starting pitchers rarely going past 5 or 6 innings, these systems will be used with half-game (5-inning) data to predict half-game results.  
 
 
-How about a yummy crepe?
+## 1.1    Research Questions
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+In this study, I will be comparing how the systems above perform in predicting the results between two opposing starting pitchers during the first 5-innings. First I will examine the relationship between a starting pitchers BaseRuns (BSR) for 5-inning to their actual 5-inning Runs allowed (R) and Earned Runs allowed (ER) as well as BaseRuns per 5-inning average (BSRA) to actual Earned Run average (ERA)
 
-It can also be centered!
+## 1.2    Data Source
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
+```{r include=FALSE}
+setwd('C:/Users/jadam/Desktop/Courses/Spring 2021/EPSY590/Final Project')
+fg1 <- read_csv('fg1.csv')
+fg2 <- read_csv('fg2.csv')
+fg1a <- colnames(fg1)
+fg2a <- colnames(fg2)
 
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
 ```
 
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+Individual statistics will be extracted from the publicly available website Fangraphs. By use of the websites advanced filtering tools, starting pitcher data from the years 2017, 2018, 2019, & 2020 will be exported into a comma-separated values (CSV) file. This file will contain only the data for the first, second, third, fourth, and fifth innings over the course of the year. The statistics from the file will include the standard variables: `r fg1a` and Advanced variables `r fg2a`.
