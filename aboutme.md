@@ -2,6 +2,8 @@
 layout: page
 title: John F. Adamek
 subtitle: Who the hell am I?
+cover-img: /assets/img/nike_kerry_me.jpg
+thumbnail-img: /assets/img/3DFX9HiP.jpg
 ---
 
 # Background
