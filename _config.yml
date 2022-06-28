@@ -22,7 +22,7 @@ navbar-links:
   Data Resources:
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
-  Daily Predictions: "https://deanattali.com"
+  #Daily Predictions: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -65,7 +65,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
   ORCID: your ORCID ID
-  google-scholar: spBAJigAAAAJ
+  google-scholar: citations?user=spBAJigAAAAJ&hl=en
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
