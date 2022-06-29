@@ -19,6 +19,7 @@ navbar-links:
     - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
     - DRating: "https://www.dratings.com/"
     - PredictionTracker: "https://www.thepredictiontracker.com/"
+    - Formula 1: "https://www.f1-predictor.com/"
   Data Resources:
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
