@@ -2,6 +2,7 @@
 layout: post
 title: Performance of Different Rating Systems on Predicting MLB Half-Game Results
 subtitle: John F. Adamek
+cover-img: /assets/img/baseball.jpg
 tags: [test]
 comments: true
 ---
