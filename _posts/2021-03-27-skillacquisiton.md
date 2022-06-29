@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Importance of verbal-cognition for skill acquisiton
-subtitle: 
+subtitle: John F. Adamek
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
