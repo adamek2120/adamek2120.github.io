@@ -13,6 +13,7 @@ Only when over 63% of the systems favor one side over the other is there a trigg
 
 Now for where the betting comes in. Most betting sites allow for a 'teaser' bet where you buy points or an alternative spread. Buying 6 points with two bets will give you even money. Now this also increases the chance of the parlay losing. Hence this is still in its evaluation stage. I'm also examining how this performs for just bets that favor the home team.
 
+Below are all the games where the computer adjusted line (lineca) differs from the vegas line (line: taken from midweek line at thepredictiontracker.com). A game marked as 'yes' under the bet column means that the buy6pts (buying 6 points in favor for the betting team) falls outside 2 standard deviations from the norm. For example, say team A (home) is favored to beat team b (road) by 10.0 and the computer adjusted line says team A should instead be favored by 10.5 (thus being the "betting_team"). In this scenerio, the buy6pts column would say 4.0 (the majority of the systems believe team A is going to win by 10, so betting them to win by 4 increases the probability of winning the bet). If 4.0 (buy6pts) is outside of line_2sd (i.e., 2 standard deviations above the mean) to line_sd2 (i.e., 2 standard deviations below the mean) this can be interperted as 95% of the time team A will cover the spread at 4.0. Resulting in a 'yes' under bet. I then make pairs of 2 to place a teaser bet giving +110 to +100 odds.
 
 ![Week 4](/assets/img/2022-09-23.png)
 
