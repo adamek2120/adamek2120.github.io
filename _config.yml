@@ -15,7 +15,7 @@ author: John F. Adamek
 
 navbar-links:
   About Me: "aboutme"
-  Sport Models and Resources:
+  Sport Models:
     - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
     - DRating: "https://www.dratings.com/"
     - PredictionTracker: "https://www.thepredictiontracker.com/"
