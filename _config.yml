@@ -23,7 +23,7 @@ navbar-links:
   Data Resources:
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
-  #Daily Predictions: "https://deanattali.com"
+  Daily Predictions: 
 
 # --- Logo --- #
 
