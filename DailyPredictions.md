@@ -14,7 +14,7 @@ Only when over 63% of the systems favor one side over the other is there a trigg
 Now for where the betting comes in. Most betting sites allow for a 'teaser' bet where you buy points or an alternative spread. Buying 6 points with two bets will give you even money. Now this also increases the chance of the parlay losing. Hence this is still in its evaluation stage. I'm also examining how this performs for just bets that favor the home team.
 
 
-/assets/img/2022-09-23.png
+![Week 4](/assets/img/2022-09-23.png)
 
 
 
