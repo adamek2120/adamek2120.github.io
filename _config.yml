@@ -22,7 +22,7 @@ navbar-links:
     - Formula 1: "https://www.f1-predictor.com/"
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
-  Daily Predictions: 
+  Daily Predictions: "DailyPredictions"
 
 # --- Logo --- #
 
