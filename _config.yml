@@ -18,21 +18,15 @@ navbar-links:
   Research Projects: 
     - Publications: "Publications"
     - Multiplie:
-      - Test 1:
-      - Test 2:
-      - Test 3:
+    - - Test 1:
+    - - Test 2:
+    - - Test 3:
     - Single:
   Data Analytic Projects:
     - NCAA Predictive Modeling: "DailyPredictions"
     - MLB 1st Inning Model:
     - MLB First 5in Model:
-  Machine Learning R Code:
-    - Regressions:
-    - Decision Tree:
-    - Support Vector Modeling:
-    - k-Nearest Neighbor:
-    - Artifical Neural Network:
-  Statistical Analysis R Code:
+  Statistics and ML in R:
     - Basic Hypothesis Testing:
     - Path Analysis:
     - Principal Component Analysis:
@@ -40,14 +34,19 @@ navbar-links:
     - Linear Discriminat Analysis:
     - Bayes Theorem:
     - Imputations:
+    - Regressions:
+    - Decision Tree:
+    - Support Vector Modeling:
+    - k-Nearest Neighbor:
+    - Artifical Neural Network:   
   Personal R ebook:
-  Sport Model Websites:
-    - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
-    - DRating: "https://www.dratings.com/"
-    - PredictionTracker: "https://www.thepredictiontracker.com/"
-    - Formula 1: "https://www.f1-predictor.com/"
-    - Fangraphs: "https://www.fangraphs.com/"
-    - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
+#  Sport Model Websites:
+#    - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
+#    - DRating: "https://www.dratings.com/"
+#    - PredictionTracker: "https://www.thepredictiontracker.com/"
+#    - Formula 1: "https://www.f1-predictor.com/"
+#    - Fangraphs: "https://www.fangraphs.com/"
+#    - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
   
 # --- Logo --- #
 
