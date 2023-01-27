@@ -22,16 +22,17 @@ layout: page
 + [SBM 2021](https://f1000research.com/posters/8-1310)
   • Role of first-gen status, friends, engagement in physical activity and therapy in life satisfaction among college students. 
 + [ACSM 2022](https://f1000research.com/posters/8-1310)
-  • Does leisure-time physical activity variety lead to better cognitive function despite not meeting PA guidelines? + [ACSM 2023](https://f1000research.com/posters/8-1310)
+  • Does leisure-time physical activity variety lead to better cognitive function despite not meeting PA guidelines? 
++ [ACSM 2023](https://f1000research.com/posters/8-1310)
   • The effect of affect during high intensity interval training on executive function 
 
 
 # Posters
 
++ [SBM 2020](https://github.com/adamek2120/adamek2120.github.io/files/10523918/SBM_JA_2020.pdf)
+NASPSPA
++ [ACSM 2022](https://github.com/adamek2120/adamek2120.github.io/files/10523923/ACSM.Poster_Final.pdf)
 
-+ [SBM 2020]()
-+ [NASPSPA 2020]()
-+ [ACSM 2022]()
 
 
 
