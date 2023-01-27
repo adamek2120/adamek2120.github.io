@@ -17,6 +17,11 @@ navbar-links:
   About Me: "aboutme"
   Research Projects: 
     - Publications: "Publications"
+    - Multiplie:
+      - Test 1:
+      - Test 2:
+      - Test 3:
+    - Single:
   Data Analytic Projects:
     - NCAA Predictive Modeling: "DailyPredictions"
     - MLB 1st Inning Model:
