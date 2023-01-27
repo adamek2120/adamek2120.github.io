@@ -15,16 +15,35 @@ author: John F. Adamek
 
 navbar-links:
   About Me: "aboutme"
-  Sport Models:
+  Research Projects: 
+    - Publications: "Publications"
+  Data Analytic Projects:
+    - NCAA Predictive Modeling: "DailyPredictions"
+    - MLB 1st Inning Model:
+    - MLB First 5in Model:
+  Machine Learning R Code:
+    - Regressions:
+    - Decision Tree:
+    - Support Vector Modeling:
+    - k-Nearest Neighbor:
+    - Artifical Neural Network:
+  Statistical Analysis R Code:
+    - Basic Hypothesis Testing:
+    - Path Analysis:
+    - Principal Component Analysis:
+    - CFA/EFA:
+    - Linear Discriminat Analysis:
+    - Bayes Theorem:
+    - Imputations:
+  Personal R ebook:
+  Sport Model Websites:
     - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
     - DRating: "https://www.dratings.com/"
     - PredictionTracker: "https://www.thepredictiontracker.com/"
     - Formula 1: "https://www.f1-predictor.com/"
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
-  Research Projects: 
-    - Test: "DailyPredictions"
-    - Publications: "Publications"
+  
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
