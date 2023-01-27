@@ -22,6 +22,7 @@ navbar-links:
     - - Test 2:
     - - Test 3:
     - Single:
+    - - Test 4
   Data Analytic Projects:
     - NCAA Predictive Modeling: "DailyPredictions"
     - MLB 1st Inning Model:
