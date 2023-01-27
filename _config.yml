@@ -15,39 +15,32 @@ author: John F. Adamek
 
 navbar-links:
   About Me: "aboutme"
-  Research Projects: 
-    - Publications: "Publications"
-    - Multiplie:
-    - - Test 1:
-    - - Test 2:
-    - - Test 3:
-    - Single:
-    - - Test 4
-  Data Analytic Projects:
+  Publications:
+    - Google Scholar: "https://scholar.google.com/citations?user=spBAJigAAAAJ&hl=en"
+    - Conference Presentations: "Publications"
+    - 
+  Projects: 
     - NCAA Predictive Modeling: "DailyPredictions"
     - MLB 1st Inning Model:
     - MLB First 5in Model:
-  Statistics and ML in R:
-    - Basic Hypothesis Testing:
-    - Path Analysis:
-    - Principal Component Analysis:
-    - CFA/EFA:
-    - Linear Discriminat Analysis:
-    - Bayes Theorem:
-    - Imputations:
-    - Regressions:
-    - Decision Tree:
-    - Support Vector Modeling:
-    - k-Nearest Neighbor:
-    - Artifical Neural Network:   
+  CV: 
+    - 
   Personal R ebook:
-#  Sport Model Websites:
-#    - FiveThirtyEight: "https://fivethirtyeight.com/sports/"
-#    - DRating: "https://www.dratings.com/"
-#    - PredictionTracker: "https://www.thepredictiontracker.com/"
-#    - Formula 1: "https://www.f1-predictor.com/"
-#    - Fangraphs: "https://www.fangraphs.com/"
-#    - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
+#  Statistics and ML in R:
+#    - Basic Hypothesis Testing:
+#    - Path Analysis:
+#    - Principal Component Analysis:
+#    - CFA/EFA:
+#    - Linear Discriminat Analysis:
+#    - Bayes Theorem:
+#    - Imputations:
+#    - Regressions:
+#    - Decision Tree:
+#    - Support Vector Modeling:
+#    - k-Nearest Neighbor:
+#    - Artifical Neural Network:   
+  
+
   
 # --- Logo --- #
 
