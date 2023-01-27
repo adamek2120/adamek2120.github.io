@@ -22,8 +22,9 @@ navbar-links:
     - Formula 1: "https://www.f1-predictor.com/"
     - Fangraphs: "https://www.fangraphs.com/"
     - FiveThirtyEight: "https://data.fivethirtyeight.com/#mlb-elo"
-  Daily Predictions: "DailyPredictions"
-
+  Daily Predictions: 
+    - "DailyPredictions"
+    - "Publications"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
