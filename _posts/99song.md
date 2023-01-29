@@ -1,0 +1,79 @@
+---
+layout: post
+title: "99 bottles of beer of the wall" in R
+subtitle: John F. Adamek
+cover-img: /assets/img/baseball.jpg
+tags: [test]
+comments: true
+---
+
+
+Learning any coding/programming language is difficult in the beginning and R was no different. I first began learning R as part of my PhD program in order to address the data management issues of my previous lab (all data cleanning was being handled in excel!) and to avoid relying on paid statistical software like SPSS for running my statistical analysis. The challenge for me towards the beginning of my R journey was that there was so much about R to learn from the basic syntax and use of baseR (R without using packages) to then learning how to clean up scripts with packages like dplyr, tidyr, ggplot2, and stringr. It soon became more of a matter of practice and repetition then reading and learning. 
+
+So I started doing as many fun and interesting projects in R that I could think of which 1. kept me motivated (which is key when trying to fix your code when it doesn't work) and 2. improved transferrability for when I needed to write code for a study or data project. I decided to share some of these projects which I'll divide into individual blog posts. Maybe it could help spark ideas for someone whose at the beginning stages of learning R or just provide some simple ideas of how you can have fun with R.
+
+# 99 bottles of beer on the wall
+
+The first one I'm sharing is a good way to see how to use a while loop within a user-defined function for one of my favorite songs that was sung to me as a baby: "99 bottles of beer on the wall". 
+
+I myself am not much of a beer drinker, I prefer a good single-malt scotch (Glenlivet or Balvenie), but otherthen scotch there is one and only one kind of shot that I will take: jagerbombs. Might be because I'm a new jersey-ian but there is nothing like a jagerbomb to let you know you're in for a wild night that will end with deep philosophical conversations while hugging a toilet bowl sipping on PeptoBismol. 
+
+The code!
+
+We create a function that can be generalized to any number of any vessel containing any liquid on any surface. The function takes in four argument: numb (number of..), glass (type of drink: shots, mugs, glass), drink (beer, jagerbombs, applejuice), and loc (the location of the drink: wall, shelf). 
+
+```
+song <- function(numb, glass, drink, loc){
+
+}
+
+```
+
+We then need to fill the function in. This is where we'll use our while loop. So while the number of drinks (numb) does not equal 0 (!=0) do .... 
+
+```
+song <- function(numb, glass, drink, loc){
+  while(numb!= 0){
+
+  }
+}
+
+```
+
+Well now all there is to do is toss in a few print(paste()) lines to repeat the lyrics of the song for each descending number and make sure that we subtract 1 each time through:
+
+```{r}
+song <- function(numb, glass, drink, loc){
+  while(numb!= 0){
+    print(paste(numb, glass, 'of', drink, 'on the', loc))
+    print(paste(numb, glass, 'of', drink))
+    print(paste('you take one down, pass it around'))
+    numb <- numb - 1
+    print(paste(numb, glass,'of', drink, 'on the', loc))
+  }
+}
+```
+
+This function can now be used to sing any version of the song you like.
+
+**99 bottles of beer on the wall:**
+
+```{r}
+song(99, 'bottles', 'beer', 'wall')
+```
+
+
+**21 shots of jagerbombs on the New Jerseyian**
+
+```{r}
+song(21, 'shots', 'jagerbombs', 'NewJersey-ian')
+```
+
+
+**5 mugs of milk on the shelf:**
+
+```{r}
+song(5, 'mugs', 'milk', 'shelf')
+```
+
+
