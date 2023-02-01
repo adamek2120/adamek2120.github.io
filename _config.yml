@@ -123,7 +123,7 @@ post_search: true
 navbar-col: "#EAEAEA"
 navbar-text-col: "#0000FF"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+page-col: "#dadae0"
 text-col: "00008B"
 link-col: "00008B"
 hover-col: "#0085A1"
