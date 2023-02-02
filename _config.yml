@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Publications:
     - Google Scholar: "https://scholar.google.com/citations?user=spBAJigAAAAJ&hl=en"
-    - Conference Presentation/Talks: "portfolio"
+    - Conference Presentation: "portfolio"
     - old: "Publications"
   Projects: 
     - Research Projects:
