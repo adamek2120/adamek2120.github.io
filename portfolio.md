@@ -11,11 +11,14 @@ layout: page
 - [Kaggle](https://www.kaggle.com/johnadamek)
 
 
-# Abtracts
+# Abtracts & Posters
 
-+ [SBM 2020](https://f1000research.com/posters/8-1310)
++ [SBM 2020]: "ACSM_Abstract2022.pdf"
+
   • Cognitive functioning and explicit physical activity attitudes and self-regulation associated with the Activity Choice Index
++ [SBM 2020](ACSM_Abstract2022.pdf)
 + [NASPSPA 2020](https://f1000research.com/posters/8-1310)
+
   • Preliminary validation of the Dot Task for measuring cognitive and physical functioning. 
 + [NASPSPA 2020](https://f1000research.com/posters/8-1310)
   • Relationships among executive functioning, future time perspective, identity, and physical activity self-regulation among low-active middle-aged adults
@@ -30,7 +33,6 @@ layout: page
 # Posters
 
 + [SBM 2020](https://github.com/adamek2120/adamek2120.github.io/files/10523918/SBM_JA_2020.pdf)
-NASPSPA
 + [ACSM 2022](https://github.com/adamek2120/adamek2120.github.io/files/10523923/ACSM.Poster_Final.pdf)
 
 
