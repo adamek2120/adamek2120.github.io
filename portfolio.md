@@ -11,31 +11,27 @@ layout: page
 - [Kaggle](https://www.kaggle.com/johnadamek)
 
 
-# Abtracts & Posters
+# Abtracts 
 
-+ [SBM 2020]: "ACSM_Abstract2022.pdf"
-
-  • Cognitive functioning and explicit physical activity attitudes and self-regulation associated with the Activity Choice Index
-+ [SBM 2020](ACSM_Abstract2022.pdf)
-+ [NASPSPA 2020](https://f1000research.com/posters/8-1310)
-
-  • Preliminary validation of the Dot Task for measuring cognitive and physical functioning. 
-+ [NASPSPA 2020](https://f1000research.com/posters/8-1310)
-  • Relationships among executive functioning, future time perspective, identity, and physical activity self-regulation among low-active middle-aged adults
-+ [SBM 2021](https://f1000research.com/posters/8-1310)
-  • Role of first-gen status, friends, engagement in physical activity and therapy in life satisfaction among college students. 
-+ [ACSM 2022](https://f1000research.com/posters/8-1310)
-  • Does leisure-time physical activity variety lead to better cognitive function despite not meeting PA guidelines? 
-+ [ACSM 2023](https://f1000research.com/posters/8-1310)
++ [ACSM 2023](ACSMAbstract_Final2023.pdf)
   • The effect of affect during high intensity interval training on executive function 
++ [ACSM 2022](ACSM_Abstract2022.pdf)
+  • Does leisure-time physical activity variety lead to better cognitive function despite not meeting PA guidelines? 
++ [SBM 2021](https://psyarxiv.com/xnkgw/)
+  • Path Analysis of Effects of First-Generation Status on Physical Activity and 4-Year CollegeDegree Completion 
++ [NASPSPA 2020](NASPSPA-2020-AbstractSM.pdf)
+  • Relationships among executive functioning, future time perspective, identity, and physical activity self-regulation among low-active middle-aged adults
++ [NASPSPA 2020](DotTask_NASPSPA_2020.pdf)
+  • Preliminary validation of the Dot Task for measuring cognitive and physical functioning.   
++ [SBM 2020](SBM_ACI_Abstract.pdf)
+  • Cognitive functioning and explicit physical activity attitudes and self-regulation associated with the Activity Choice Index
 
 
 # Posters
 
-+ [SBM 2020](https://github.com/adamek2120/adamek2120.github.io/files/10523918/SBM_JA_2020.pdf)
-+ [ACSM 2022](https://github.com/adamek2120/adamek2120.github.io/files/10523923/ACSM.Poster_Final.pdf)
-
-
++ [ACSM 2023]() - COMING SOON
++ [ACSM 2022](ACSM Poster_Final.pdf)
++ [SBM 2020](SBM_JA_2020.pdf)
 
 
 # Slides
@@ -44,5 +40,5 @@ layout: page
 + [Tennis Congress 2016](https://sjackman.ca/tigmint-recomb-slides/)
 
 
-+ More slides on [Speaker Deck](https://www.slideshare.net/shaunjackman) and [SlideShare](https://speakerdeck.com/sjackman)
+
 
