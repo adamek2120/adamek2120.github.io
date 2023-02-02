@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-subtitle: Abstracts, Posters, and Slides
+subtitle: Abstracts, Posters, and Slides Ohmy
 layout: page
 ---
 
