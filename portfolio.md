@@ -34,12 +34,6 @@ layout: page
 + [SBM 2020](SBM_JA_2020.pdf)
 
 
-# Slides
-
-+ [Tennis Congress 2015](https://sjackman.ca/tigmint-recomb-slides/)
-+ [Tennis Congress 2016](https://sjackman.ca/tigmint-recomb-slides/)
-
-
 # Conference Talks
 
 1.	Adamek, J. F. (May, 2015). Cognitive sports training and sports science for the recreational tennis player. Workshop presented at the regional Tennis Congress clinic. Tenafly, NJ.
