@@ -7,9 +7,21 @@ tags: [test]
 comments: true
 ---
 
-After a while it becomes tiredsome downloading data into a csv/excel file and then inputting it into R (or whatever software you use). There will be times when this might be the only choice but when we can it would be best to always scrape data from the web. This ensures that the data being pulled is always up to date.
+## Introduction
 
-When I first started learning R I was also taking statistic courses at the University of Illinos at Urbana-Champaign. One course focused on probability theory and Bayesian statistics. About this same time, sports betting was becoming legal and a popular betting type on MLB games was betting whether there would be a run scored in the first inning. At the time, the market was VERY favorable giving near even money (-110) for yes/no. Funny enough, this lasted barely a year until Vegas and all sport bookies caught on and adjusted the 1st inning moneyline so the return is less. Regardless, this is still a useful code and there are many other applications you can use with this. 
+During my master's degree, I used SPSS for performing any statistical analysis however, early in my Ph.D program I was introduced to R and have not looked back since! R is more then just a program to run statistics ranging from basic descriptives to latent class modeling or neural networks. It's superior power also makes R the ideal langauge for running simulations with large iterations. However, before running any analyzes or simulations you need data. You can input a data file or... you can scrape data straight from a website. 
+
+I love baseball so, of course, when I began teaching myself R I would relay on using baseball data over the common built-in R datasets used most learning resources (e.g., iris, mtcars, NYCflights). The Lahman and baseballr package in R are great tools that contain historical baseball data (Lahman) and functions with embedded APIs to extract data from statcast and fangraphs (baseballr), however you're restricted to the limits of the package. Also, scraping data from a website can better ensure that each time you run the code the data being pulled in is always up to date.    
+
+When I first started learning R I was also taking statistic courses during my Ph.D at the University of Illinos at Urbana-Champaign. One of the first courses I took focused on probability theory and Bayesian statistics. About this same time, sports betting was becoming legal in Illinois and a popular betting type on MLB games was betting whether there would be a run scored in the first inning. During this time, the market was VERY favorable giving near even money (-110) for yes/no. Funny enough, I read somewhere that this lasted barely a year until Vegas and all sport bookies caught on and adjusted the 1st inning moneyline so the return is less. Either way, I started creating a model to predict whether a team would score a run in the first inning. The complete model includes data relating to the starting pitcher as well however, for the purpose of this article, I'll just focus on the beginning stages which uses a team's 1st inning score percentage and opponents 1st inning score percentage. This will allow me to predict the three different type of 1st inning bets: Team A wins (Team A scores and Team B does not), Team B wins (Team B scores and Team A does not), Tie (for this example we'll simply define tie as neither Team A or Team B scores). We will use the following probability formulas:
+
+P(A) = Probability that Team A scores in the first inning
+P(B) = Probability that Team B scores in the first inning
+P(A \cap B') = P(A) - P(A \cap B) = Probability that Team A scores but not Team B
+P(B \cap A') = P(B) - P(B \cap A) = Probability that Team B scores but not Team A
+P(A' \cap B') = 1 - P(A U B) = Probability that neither team scores in the first inning
+
+
 
 What this script does below is pulls in each teams 1st inning score percentage and their opponents 1st inning score percentage. 
 ````
@@ -17,9 +29,11 @@ What this script does below is pulls in each teams 1st inning score percentage a
 ``` CLEAN THIS UP!!!
 ```
 
+```
 # Creating object with the address
 tr_url <- "https://www.teamrankings.com/mlb/team-stats/"
 tr <- read_html(tr_url)
+```
 
 # Getting links
 tr_links <- tr %>% 
