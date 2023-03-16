@@ -17,9 +17,9 @@ When I first started learning R I was also taking statistic courses during my Ph
 
 P(A) = Probability that Team A scores in the first inning
 P(B) = Probability that Team B scores in the first inning
-P(A \cap B') = P(A) - P(A \cap B) = Probability that Team A scores and not Team B in the first inning
-P(B \cap A') = P(B) - P(B \cap A) = Probability that Team B scores and not Team A in the first inning
-P(A' \cap B') = 1 - P(A U B) = Probability that neither team scores in the first inning
+P(A and not B) = P(A) - P(A and B) = Probability that Team A scores and not Team B in the first inning
+P(B and not A') = P(B) - P(A and B) = Probability that Team B scores and not Team A in the first inning
+P(not A and not B) = 1 - P(A or B) = Probability that neither team scores in the first inning
 
 ## Webscraping Teamrankings.com
 
