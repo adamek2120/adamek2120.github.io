@@ -2,7 +2,7 @@
 layout: post
 title: Webscrape from Team Rankings website
 subtitle: John F. Adamek
-cover-img: /assets/img/baseball.jpg
+cover-img: /assets/img/baseball_analysis.jpg
 tags: [test]
 comments: true
 ---
