@@ -7,9 +7,9 @@ tags: [test]
 comments: true
 ---
 
-## Introduction
-
 During my master's degree, I used SPSS for performing any statistical analysis however, early in my Ph.D program I was introduced to R and have not looked back since! R is more then just a program to run statistics ranging from basic descriptives to latent class modeling or neural networks. It's superior power also makes R the ideal langauge for running simulations with large iterations. However, before running any analyzes or simulations you need data. You can input a data file or... you can scrape data straight from a website. 
+
+## Introduction
 
 I love baseball so, of course, when I began teaching myself R I would relay on using baseball data over the common built-in R datasets used most learning resources (e.g., iris, mtcars, NYCflights). The Lahman and baseballr package in R are great tools that contain historical baseball data (Lahman) and functions with embedded APIs to extract data from statcast and fangraphs (baseballr), however you're restricted to the limits of the package. Also, scraping data from a website can better ensure that each time you run the code the data being pulled in is always up to date.    
 
