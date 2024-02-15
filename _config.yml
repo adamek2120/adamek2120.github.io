@@ -18,14 +18,13 @@ navbar-links:
   Publications:
     - Google Scholar: "https://scholar.google.com/citations?user=spBAJigAAAAJ&hl=en"
     - Conference Presentation: "portfolio"
-  Projects: 
-    - Research Projects:
-    - Data Projects: "DailyPredictions"
-    - Sport Science Projects:
+  #Projects: 
+    #- Research Projects:
+    #- Data Projects: "DailyPredictions"
   Personal R ebook: "jfa_book.pdf"
   CV/Resume:
-    - CV: "Adamek_John_CV.pdf"
-    - Resume: "Adamek_John_Resume.pdf"
+    - CV: "Adamek_John_CV_13Feb2024.pdf"
+    - Resume: "John_Adamek_Resume.pdf"
 #  Statistics and ML in R:
 #    - Basic Hypothesis Testing:
 #    - Path Analysis:
