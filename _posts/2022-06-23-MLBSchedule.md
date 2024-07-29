@@ -109,19 +109,25 @@ todays_schedule <- data.frame(
   AwayScore = todays_games$teams.away.score
 )
 
+# Today's Schedul
 kable(todays_schedule[,c(1,3:6)])
 ```
 
 
 ## Today's Lineup's
 
+We do a bit more cleaning...
+
+
 ```{r}
 todays_lineup <- lineup(todays_games$game_pk)
 
-todays_lineup[1]
-
+# Today's lineup
+kable(todays_lineup[1])
 
 ```
+
+DONE! This will give you today's schedule & starting pitchers (todays_schedule) as well as the starting lineup for each game (todays_lineup). 
 
 
 
