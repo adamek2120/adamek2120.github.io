@@ -6,12 +6,11 @@ layout: page
 
 # Portfolios
 
-- [Google Scholar](https://scholar.google.com/citations?user=spBAJigAAAAJ&hl=en)
 - [Kaggle](https://www.kaggle.com/johnadamek)
 - [Github](https://github.com/adamek2120)
 
 
-# Abtracts 
+# Abtracts (select few: see CV)
 
 + [ACSM 2023](ACSMAbstract_Final2023.pdf)
   • The effect of affect during high intensity interval training on executive function 
@@ -27,9 +26,10 @@ layout: page
   • Cognitive functioning and explicit physical activity attitudes and self-regulation associated with the Activity Choice Index
 
 
-# Posters
+# Posters (select few: see CV)
 
-+ [ACSM 2023]() - COMING SOON
++ [ACSM 2024](ACSM2024_Poster_FINAL.pptx)
++ [ACSM 2023](ACSM2023_Poster_Final.pptx) 
 + [ACSM 2022](ACSM Poster_Final.pdf)
 + [SBM 2020](SBM_JA_2020.pdf)
 
