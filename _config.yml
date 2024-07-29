@@ -21,9 +21,9 @@ navbar-links:
   #Projects: 
     #- Research Projects:
     #- Data Projects: "DailyPredictions"
-  Personal R ebook: "jfa_book.pdf"
+  #Personal R ebook: "jfa_book.pdf"
   CV/Resume:
-    - CV: "Adamek_John_CV_13Feb2024.pdf"
+    - CV: "Adamek_John_CV_June_2024.pdf"
     - Resume: "John_Adamek_Resume.pdf"
 #  Statistics and ML in R:
 #    - Basic Hypothesis Testing:
